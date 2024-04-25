@@ -1,0 +1,1023 @@
+
+.tiktok-eiszvf-DivGiftContainer{
+overflow-x:scroll!important;
+}
+.tiktok-4dhq7f-DivGiftListContainer{
+padding-left:4px!important;
+padding-right:4px!important;
+}
+.css-9aj0a0-DivMessageContainer {
+width: 50vw; direction: ltr;
+}
+
+.tiktok-1okbypp-DivRoomPlayerActivePanel{
+aspect-ratio:9/16;
+}
+.tiktok-1ymb4ns-DivMultiGuestMaskPanelWrapper{
+width: 1079.15px;
+height: 1456px;
+top: -175px;
+left: -130px;
+
+width: calc(100vw - 76px);
+height: calc(100vh - 219px);
+top: 0px;
+left: 0px!important;
+width:100%;
+}
+.tiktok-1qz4kvs-DivMultiGuestMaskPanelContent{
+width: 819px;
+height: 1456px;
+width: calc(100vw - 76px);
+height: calc(100vh - 219px);
+
+width:100%;
+}
+
+#guest0{
+width: 408.435px;
+height: 742.516px;
+top: 356px;
+left: -1px;
+
+width: 49.86%;
+width:186px;
+height: 400px;
+height:383px;
+top: 0px;
+left: -1px;
+}
+
+.tiktok-1cfn3d6-DivLinkedMicUserCardWrapper.left, .tiktok-1cfn3d6-DivLinkedMicUserCardWrapper.right{
+position:absolute;
+}
+
+.tiktok-1cfn3d6-DivLinkedMicUserCardWrapper.left{
+width: 203.112px;
+left: 411.776px;
+
+width: 24.5%;
+width:92px;
+left: calc(49.86% - 1px);
+left:186px;
+}
+.tiktok-1cfn3d6-DivLinkedMicUserCardWrapper.right {
+width: 198.771px;
+left: 619.229px;
+
+width:24.5%;
+width:92px;
+left: calc(100% - 93px);
+left:283px;
+}
+
+.left.first, .right.second{
+height: 183.456px;
+height:92px;
+}
+.right.first, .left.second{
+height: 183.471px;
+height:92px;
+}
+.third, .fourth{
+height: 181.243px;
+height:92px;
+}
+
+.first{
+top: 356px;
+top:0px;
+}
+.second {
+top: 544px;
+top:97px;
+}
+.third {
+top: 732px;
+top:194px;
+}
+.fourth {
+top: 918px;
+top:291px;
+}
+
+img.guest{
+display: block;
+width: 80px;
+height: 80px;
+border-radius: 80px;
+position: absolute;
+transform: translate(-50%, -50%);
+left: 50%;
+top: 50%;
+z-index: 10;
+
+width: 52px;
+height: 52px;
+border-radius: 36px;
+}
+.tiktok-1ymb4ns-DivMultiGuestMaskPanelWrapper{
+display:flex;
+z-index:3;
+position:absolute;
+}
+.tiktok-1lwwn0x-DivBgContainer{
+background-color:rgba(0,0,0,0.5);
+}
+.tiktok-1cfn3d6-DivLinkedMicUserCardWrapper{
+position:absolute;
+display:flex;
+justify:content:center;
+align-items:center;
+z-index:1;
+}
+.DivLinkMicUserCardBg{
+width:101%;
+height:100%;
+backdrop-filter:blur(15px);
+background-color:rgba(22,24,35,0.5);
+}
+.tiktok-1ku02sx-DivUserCoinWrapper{
+position:absolute;
+top:4px;
+left:4px;
+height:14px;
+border-radius:57px;
+background-color:rgba(37,37,37,0.6);
+padding:2px;
+overflow:hidden;
+display:flex;
+align-items:center;
+z-index:10;
+}
+.tiktok-6v3k1v-DivUserCoinIcon{
+background-image:url(../img/f2ae6d5ab233ffa2.png);
+width:10px;
+height:10px;
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+.tiktok-kfojbb-DivUserCoinCount{
+color:rgb(255,255,255);
+font-size:12px;
+line-height:18px;
+font-weight:600;
+margin-left:2px;
+margin-right:2px;
+font-family:TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
+}
+.tiktok-4qeerj-DivUserName{
+position:absolute;
+color:rgb(255, 255, 255);
+font-size:12px;
+line-height:18px;
+font-weight:400;
+font-family:TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
+left:4px;
+bottom:4px;
+right:4px;
+z-index:10;
+text-overflow:ellipsis;
+white-space:nowrap;
+overflow:hidden;
+}
+.tiktok-150y21d-DivBlurMask{
+max-height:56px;
+height:21.13%;
+position:absolute;
+z-index:2;
+left:-1px;
+bottom:0px;
+background:linear-gradient(rgba(0,0,0,0)) 0%, rgba(0,0,0,0.4) 100%);
+}
+
+
+.tiktok-1cfn3d6-DivLinkedMicUserCardWrapper {
+position: absolute;
+display: flex;
+-webkit-box-pack: center;
+justify-content: center;
+-webkit-box-align: center;
+align-items: center;
+z-index: 1;
+}
+.DivHostIconWrapper {
+height: 14px;
+border-radius: 38px;
+padding: 1px 4px;
+overflow: hidden;
+z-index: 10;
+position: absolute;
+left: 4px;
+top: 4px;
+display: flex;
+-webkit-box-align: center;
+align-items: center;
+white-space: nowrap;
+max-width: 187.5px;
+}
+.DivHostIconWrapperBg{
+background-color: rgb(0, 198, 233);
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0px;
+top: 0px;
+opacity: 0.6;
+z-index: 0;
+}
+.tiktok-odk662-DivHostIcon {
+position: relative;
+width: 10px;
+height: 10px;
+background-image: url("../img/9a40d9d7084b5cb9.png");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+z-index: 1;
+}
+.tiktok-uw213i-DivHostText {
+position: relative;
+color: rgb(255, 255, 255);
+font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
+font-size: 12px;
+line-height: 18px;
+font-weight: 600;
+margin-left: 2px;
+z-index: 1;
+}
+.DivUserName {
+color: rgb(255, 255, 255);
+font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
+font-size: 10px;
+line-height: 16px;
+font-weight: 400;
+position: absolute;
+left: 4px;
+bottom: 4px;
+right: 4px;
+z-index: 10;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+}
+.tiktok-150y21d-DivBlurMask {
+background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+max-height: 56px;
+height: 22.13%;
+position: absolute;
+z-index: 2;
+left: -1px;
+bottom: 0px;
+}
+.tiktok-161gxfz-DivLinkMicUserCardBgWrapper {
+background-size: cover;
+background-position: center center;
+width: 100%;
+height: 100%;
+background-repeat: no-repeat;
+position: absolute;
+top: 0px;
+left: 0px;
+z-index: 1;
+overflow: hidden;
+border-radius: 4px;
+}
+.DivLinkMicUserCardBg {
+width: 101%;
+height: 100%;
+backdrop-filter: blur(15px);
+background-color: rgba(22, 24, 35, 0.5);
+}
+.tiktok-6v3k1v-DivUserCoinIcon {
+width: 10px;
+height: 10px;
+background-image: url("../img/f2ae6d5ab233ffa2.png");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+.tiktok-3h4225-DivIconContainer {
+width: 100%;
+height: 100%;
+text-align: center;
+position: absolute;
+z-index: 3;
+left: 0px;
+top: 0px;
+overflow: hidden;
+}
+.tiktok-1muh6yr-DivIconBg {
+position: relative;
+width: 100%;
+height: 100%;
+background: linear-gradient(rgb(55, 33, 67) 0%, rgb(45, 35, 77) 100%);
+}
+.tiktok-1g7n7ey-DivActicle {
+width: 100%;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+z-index: 1;
+}
+.tiktok-1yzwhg-ImgPng {
+max-width: 92px;
+width:52px;
+height:52px;
+margin: 0px auto;
+}
+
+
+.DivLinkMicUserCardBgWrapper {
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0px;
+left: 0px;
+overflow: hidden;
+border-radius: 4px;
+z-index: 1;
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+.DivLinkMicUserCardBg {
+width: 101%;
+height: 100%;
+backdrop-filter: blur(15px);
+background-color: rgba(22, 24, 35, 0.5);
+background-color:rgba(55,33,67,0.6);
+}
+.tiktok-tmm {
+background-image: url("../img/user/tmm.png");
+}
+.tiktok-Peace {
+background-image: url("../img/user/Peace.png");
+}
+
+.tiktok-ayajoker {
+background-image: url("../img/user/ayajoker.png");
+}
+.tiktok-simm {
+background-image: url("../img/user/simm.png");
+}
+.tiktok-Fm {
+background-image: url("../img/user/Fm.png");
+}
+.DivUserAudioMuteIcon{
+
+}
+.tiktok-1ymb4ns-DivMultiGuestMaskPanelWrapper{
+
+}
+.tiktok-1qz4kvs-DivMultiGuestMaskPanelContent{
+
+}
+html,body{
+overflow:hidden;
+}
+#app{
+min-height:88vh;
+max-height:88vh;
+overflow:hidden;
+display:flex;
+flex-direction:column;
+justify-content:flex-start;
+}
+.tiktok-t31vku-MainLiveLayoutContainer{
+width:100vw;
+height:100vh;
+overflow:hidden;
+background-color:rgba(55,33,67,0.6);
+}
+.tiktok-1fxlgrb-DivBodyContainer{
+margin-top:100px;
+}
+.tiktok-17uumg0-DivLivePlayerContainer{
+background-color:rgba(55,33,67,0.6);
+background: linear-gradient(180deg, rgba(55, 33, 67, .6) 0%, rgb(45, 35, 77) 100%);
+}
+
+
+.tiktok-oe7nl1-DivLiveRoomPlayerContainer {
+position: relative;
+-webkit-transition: width cubic-bezier(0.25, 0, 0.25, 1) 200ms, height cubic-bezier(0.25, 0, 0.25, 1) 200ms;
+transition: width cubic-bezier(0.25, 0, 0.25, 1) 200ms, height cubic-bezier(0.25, 0, 0.25, 1) 200ms;
+width: 100%;
+height: calc(100vh - 219px);
+min-height: 300px;
+}
+
+.tiktok-1uhmqok-DivLivePlayerHeader {
+height: 80px;
+width: 100%;
+position: absolute;
+left: 0;
+top: 0;
+background: linear-gradient(180deg, rgba(0, 0, 0, .6) 0%, rgba(0, 0, 0, 0) 100%);
+z-index: 20;
+opacity: 1;
+-webkit-transition: opacity .5s ease;
+transition: opacity .5s ease;
+color: #fff;
+display: none;
+}
+#guest0{
+background: linear-gradient(180deg, rgba(0, 0, 0, .6) 0%, rgba(0, 0, 0, 0) 100%);
+}
+.DivUserAudioMuteIcon {
+background-image: url("../img/c505744d250c0388.png");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+position: absolute;
+bottom: 4px;
+right: 4px;
+width: 14px;
+height: 14px;
+z-index: 10;
+display:block;
+}
+.talking .DivUserAudioMuteIcon, .free .DivUserAudioMuteIcon{
+display:none;
+}
+
+
+.DivUserAudioMuteIcon.mute {
+background-image: url(../img/mute-red.png);
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+position: absolute;
+bottom: 4px;
+right: 4px;
+width: 14px;
+height: 14px;
+z-index: 10;
+display: none;
+}
+
+@-webkit-keyframes blinker {
+from { opacity: 1.0; }
+to { opacity: 0.0; }
+}
+.border{
+display: none;
+position: absolute;
+top: 0px;
+right: 0px;
+bottom:0px;
+left:0px;
+z-index:20;
+border:1px solid rgb(31, 218, 204);
+border:1px solid rgb(130, 216, 239);
+border:1px solid rgb(48, 194, 225);
+}
+.talking .border{
+display: block;
+/*
+-webkit-animation-name: blinker;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: cubic-bezier(.5, 0, 1, 1);
+-webkit-animation-duration: 1.7s;
+*/
+animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+#chuchu {
+position: absolute;
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+z-index: 100;
+background-image: url(../img/chuchu.jpg);
+background-size: 100% auto;
+background-position: top left;
+background-repeat: no-repeat;
+opacity:0.9;
+}
+#left{
+position: absolute;
+top: 212px;
+height: 1px;
+right: 0px;
+left: 0px;
+z-index: 100;
+}
+#host {
+position: absolute;
+top: 130px;
+height: 338px;
+width: 188px;
+left: 0px;
+z-index: 100;
+background: linear-gradient(180deg, rgba(55, 33, 67, .6) 0%, rgb(45, 35, 77) 100%);
+}
+#guest {
+position: absolute;
+top: 130px;
+height: 338px;
+width: 185px;
+left: 190px;
+z-index: 100;
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.guests{
+width:24vw;
+height:calc(24vw - 8px);
+background: linear-gradient(rgba(22,34,35,0.6) 0%, rgba(22,24,35,0.4) 100%);
+display: flex;
+align-items: center;
+z-index: 1;
+color: rgb(255, 255, 255);
+font-family: 'TikTokFont', Arial, Tahoma, 'PingFangSC', sans-serif;
+position:relative;
+}
+.LinkMicUserCardBgWrapper {
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0px;
+left: 0px;
+overflow: hidden;
+border-radius: 4px;
+z-index: 1;
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+.LinkMicUserCardBg {
+width: 101%;
+height: 100%;
+backdrop-filter: blur(15px);
+background-color: rgba(22, 24, 35, 0.5);
+}
+.IconContainer {
+width: 100%;
+height: 100%;
+text-align: center;
+position: absolute;
+z-index: 3;
+left: 0px;
+top: 0px;
+overflow: hidden;
+display:none;
+}
+.IconBg {
+position: relative;
+width: 100%;
+height: 100%;
+background: linear-gradient(rgb(55, 33, 67) 0%, rgb(45, 35, 77) 100%);
+display:none;
+}
+.Acticle {
+width: 100%;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+z-index: 1;
+}
+.Acticle. ImgPng {
+max-width: 52px;
+width: 52px;
+height: 52px;
+margin: 0px auto;
+}
+.GrayMask{
+display:none;
+}
+.Img {
+display: block;
+width: 40px;
+height: 40px;
+border-radius: 40px;
+position: absolute;
+transform: translate(-50%, -50%);
+left: 50%;
+top: 50%;
+z-index: 10;
+}
+.UserCoinWrapper {
+position: absolute;
+top: 4px;
+left: 4px;
+height: 14px;
+border-radius: 15px;
+background-color: rgba(37, 37, 37, 0.6);
+padding: 2px;
+overflow: hidden;
+display: flex;
+align-items: center;
+z-index: 10;
+}
+.UserCoinIcon {
+width: 10px;
+height: 10px;
+background-image: url("../img/f2ae6d5ab233ffa2.png");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+.UserCoinCount {
+font-size: 12px;
+line-height: 18px;
+font-weight: 600;
+margin-left: 2px;
+margin-right: 2px;
+}
+.UserName {
+font-size: 10px;
+line-height: 16px;
+font-weight: 400;
+position: absolute;
+left: 4px;
+bottom: 4px;
+right: 25px;
+z-index: 10;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+}
+.UserAudioMuteIcon {
+background-image: url("../img/c505744d250c0388.png");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+position: absolute;
+bottom: 4px;
+right: 4px;
+width: 14px;
+height: 14px;
+z-index: 10;
+display: block;
+}
+.BlurMask {
+background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+max-height: 56px;
+height: 22.13%;
+position: absolute;
+z-index: 2;
+left: -1px;
+bottom: 0px;
+width:100%;
+}
+
+.break .Img{
+display:none;
+}
+.break .GrayMask{
+display: block;
+}
+.free .IconBg{
+display:block;
+}
+.break .IconContainer, .free .IconContainer{
+display:block;
+}
+.break .imgf{
+display:none;
+}
+.free .imgb, .free .LinkMicUserCardBgWrapper, .free .UserCoinWrapper, .free .UserName, .free .Img, .free .BlurMask, .free .UserAudioMuteIcon{
+display:none;
+}
+.non *{
+display:none;
+}
+.non .IconContainer, .non .IconBg {
+display: block;
+}
+.talking .UserAudioMuteIcon, .free .UserAudioMuteIcon{
+display:none;
+}
+#app{
+display:none;
+}
+#chuchu{
+display:none;
+}
+#left{
+top:0px;
+height:44px;
+}
+
+
+.LiveRoomBanner {
+height: 100%;
+background: rgba(18, 18, 18, 1);
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 0;
+padding-bottom: 0;
+position: relative;
+width: 100%;
+padding-right: 16px;
+padding-left: 4px;
+}
+.UserHoverProfileContainer {
+position: relative;
+}
+.ActionContainer {
+display: flex;
+margin-inline-start: 5px;
+}
+.UserProfile {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+overflow: hidden;
+width: 100%;
+}
+.StyledProfileAvatar {
+width: 32px;
+height: 32px;
+min-width: 32px;
+min-height: 32px;
+margin: 0 5px;
+margin-left:10px;
+border-radius: 50%;
+}
+.ProfileInfo{
+flex: 1;
+overflow: hidden;
+}
+.BroadcastTitleWrapper{
+display: inline-flex;
+align-items: center;
+width: 100%;
+}
+.BroadcastTitleWrapper a{
+display:block;
+text-decoration:none;
+width:100%;
+}
+.BroadcastTitleContainer{
+font-size: 14px;
+color: rgba(255, 255, 255, .9);
+display: flex;
+flex-direction: column;
+align-items: left;
+justify-content: space-around;
+text-decoration: none;
+width: 100%;
+padding-top:5px;
+}
+.BroadcastTitleContainer h2{
+color: rgba(255, 255, 255, .9);
+font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+display: block;
+overflow: hidden;
+text-overflow: ellipsis;
+cursor: pointer;
+min-width: 28px;
+white-space: nowrap;
+}
+.BroadcastTitleContainer h1{
+color: rgba(255, 255, 255, .75);
+font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+font-size: 12px;
+line-height: 21px;
+display: block;
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 0;
+white-space: nowrap;
+flex: 1;
+min-width: 24px;
+margin-left: 4px;
+margin-top:-4px;
+}
+#host{
+background-image:url(../img/user/backdrop.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-position: center;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#host img{
+width: 100%;
+border-radius:50%;
+}
+.hostAudio{
+background-color: rgba(255,255,255,0.9);
+position: absolute;
+top:26px;
+left:36px;
+height:14px;
+width:14px;
+border-radius:14px;
+z-index:200;
+display: flex;
+align-items: center;
+justify-content: center;
+display: none;
+}
+.hostAudio.mute{
+display:block;
+}
+
+
+.StyledGiftTray {
+position: absolute;
+bottom: 164px;
+width: 300px;
+z-index: 30;
+left: 6px;
+}
+.SendGift {
+display: flex;
+flex-direction: row;
+font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
+color: rgb(255, 255, 255);
+height: 48px;
+}
+.SendGift .1bale0h{
+animation: 250ms cubic-bezier(0.32, 0.94, 0.6, 1) 0s 1 normal none running animation-1w3cqlu;
+transition: all 500ms ease 0s;
+}
+.SendGiftBar {
+width: 150px;
+height: 48px;
+background: linear-gradient(270deg, rgba(0, 0, 0, 0.12) 0%, rgba(0, 0, 0, 0.4) 100%);
+border-radius: 24px;
+display: flex;
+align-items: center;
+padding: 4px 12px 4px 4px;
+}
+.SendGiftCount {
+position: relative;
+margin-left: 6px;
+font-style: italic;
+font-weight: 700;
+text-shadow: rgba(0, 0, 0, 0.3) 0px 0px 1px;
+padding-top: 11px;
+display: flex;
+}
+.SendGiftAvatar {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+overflow: hidden;
+}
+.SendGiftAvatar img{
+display: block;
+width: 30px;
+border-radius: 50%;
+}
+.SendGiftBarContent {
+margin-left: 4px;
+flex: 1 1 0%;
+overflow: hidden;
+}
+.TitleGift {
+font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
+font-weight: 600;
+line-height: 15px;
+font-size: 12px;
+white-space: nowrap;
+margin-bottom: 4px;
+}
+.DescriptionGift {
+font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
+font-weight: 400;
+line-height: 11px;
+font-size: 10px;
+white-space: nowrap;
+}
+.GiftBarIcon {
+width: 30px;
+height: 30px;
+}
+.GiftBarIcon img {
+display: block;
+width: 30px;
+}
+.SendGiftCount span{
+font-size:14px;
+}
+.SendGiftCount .SpanBullet{
+font-size:20px;
+}
+.DescriptionGift{
+max-width:120px;
+text-overflow:ellipsis;
+white-space:nowrap;
+overflow:hidden;
+}
+.StyledGiftTray{
+min-width: 250px!important;
+max-width: 250px!important;
+width: 250px!important;
+}
+.SendGift{
+left;0px!important;
+right:0px!important;
+width:100%!important;
+}
+#SendGiftBar{
+background-color: rgba(255,18,18, 0.1)!important;
+}
+.rotate {
+animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+from {
+transform: rotate(0deg);
+}
+to {
+transform: rotate(359deg);
+}
+}
+
+/*
+.SendGift {
+transition: moveUpImage 5s, filter 3s ease-in-out;
+filter: brightness(150%);
+}
+@keyframes moveUpImage{
+0% { top: -35% }
+100% { top: 0% }
+}
+*/
+#host img{
+width:60px;
+opacity:0.5;
+}
+#host .UserName{
+border-bottom:1px solid rgba(18,18,18,0.5);
+padding-left:4px;
+border-radius:10px;
+font-weight:500;
+}
+.stars{
+position: fixed;
+top: 0;
+left: 0;
+width: 100vw;
+height: 120%;
+transform: rotate(-45deg);
+}
+#host .border{
+border-width:2px!important;
+}
+
+.non.talking .UserCoinWrapper {
+display:flex;
+}
+.non.talking .UserCoinIcon, .non.talking .UserCoinCount, .non.talking .UserName {
+display:block;
+}
+.talking .border{
+border-width:2px!important;
+}
+#host.gs{
+background-color:rgb(54,33,70)!important;
+background-image:none!important;
+}
+#host.gs img{
+display:none!important;
+}
+.rotate{
+position:fixed;
+top:50px;
+left:150px;
+z-index:9999;
+}
+#host{
+background-size: auto 338px;
+}
+#desc{
+position:fixed;
+top:490px;
+left:0px;
+z-index:9999;
+color:white;
+font-size:36px;
+width:100vw;
+height: 25vh;
+background-color: limegreen;
+}
+.stars, #desc, .rotate, .guests.non .IconBg{
+display:none!important;
+}
