@@ -618,14 +618,47 @@
 <script src="assets/js/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
+var tikLive = new Object();
+tikLive["host"] = new Object();
+tikLive["guests"] = new Object();
+//tikLive["imgs"] = new Object();
 
 for(var i = 0; i < 50; i++){
 $(".stars").append('<div class="star"></div>');
 }
 
-var host = {"name": "Yuri Tadesse አማራው❗️", "avatar": "yuri.png", "cover": "", "like": "53"};
+var host = {"name": "Yuri Tadesse አማራው❗️", "avatar": "yuri.png", "cover": "tik.png", "like": "53"};
+var imgs = [];
 
 var guests = [{"name": "DawitG27⭐️⭐️⭐️⭐️⭐️", "avatar": "dawit.png", "coin": "0", "status": ""}, {"name": "Henok ጊዮን", "avatar": "henok.png", "coin": "0", "status": ""}, {"name": "ሚጥሚጣ ♊️🔥🔥🔥🔥", "avatar": "mitmita.png", "coin": "0", "status": ""}, {"name": "Abu ፋኖ ابو فانو💚💛❤️🇸🇦🤴", "avatar": "abu.png", "coin": "0", "status": ""}, {"name": "Teddy Hawassa", "avatar": "tedy.png", "coin": "10", "status": ""}, {"name": "መሣይ መኮንን", "avatar": "mesay.png", "coin": "0", "status": ""}, {"name": "ቡኖ በደሌ👂🧠🗣", "avatar": "buno.png", "coin": "1", "status": ""}, {"name": "hara hara", "avatar": "hara.png", "coin": "1M", "status": ""}, {"name": "ቆርጠህ ላክለት 🎬", "avatar": "korteh.png", "coin": "1K", "status": "1K"},{"name": "ሶፊዬ አማራፋኖ🕌🇨🇬⛪️📿", "avatar": "yuri.png", "coin": "53", "status": "talking"}];
+guests.push({"name": "Yuri Tadesse አማራው❗️", "avatar": "yuri.png", "coin": "100", "status": ""});
+
+function setStore(){
+$(guests).each(function(a, b){
+guests[a]["img"] = new Object;
+var img = new Image();
+img.src = "assets/img/config/avatar/" + guests[a]["avatar"];
+img.onload = function(){
+var canvas = document.createElement("canvas");
+canvas.width = img.width;
+canvas.height = img.height;
+document.body.appendChild(canvas);
+var ctx = canvas.getContext("2d");
+ctx.drawImage(img, 0, 0);
+var im = canvas.toDataURL();
+$("#left img").attr("src", im);
+guests[a]["img"] = im;
+document.body.removeChild(canvas);
+
+tikLive["host"] = host;
+tikLive["guests"] = guests;
+//tikLive["imgs"] = imgs;
+localStorage.setItem("tikLive", JSON.stringify(tikLive));
+}
+img.src = "assets/img/config/avatar/" + guests[a]["avatar"];
+});
+}
+//setStore();
 
 $("#host").css("background-image", "url(assets/img/config/cover/" + guests[9]['avatar'] + ")");
 $("#host .UserName").text("Yuri Tadesse አማራው❗");
