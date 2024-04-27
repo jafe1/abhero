@@ -11,8 +11,109 @@
 <link rel="stylesheet" href="assets/css/tiktok.css">
 <link rel="stylesheet" href="assets/css/yuri.css">
 <link rel="stylesheet" href="assets/css/star.css">
+<style>
+body.loading #app{
+display: none;
+}
+body.loading{
+background-color: rgb(0,0,0);
+}
+.loader{
+position: absolute;
+top:0px;
+left: 0px;
+right:0px;
+bottom:0px;
+z-index: 9999;
+background-image: url(assets/images/tik.png);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center center;
+display: none;
+}
+body.loading .loader {
+display: block;
+}
+
+.tiktok-1nfrt-SvgContainer{
+display: block;
+position: absolute;
+left: 50%; top: 50%;
+transform: translate(-50%, -50%);
+z-index: 10;
+}
+.tiktok-dt84ji-Circle, .tiktok-1ibclz-Circle, .tiktok-nuz7yg-Circle, .tiktok-1ie96h1-Circle, .tiktok-162i5jd-Circle{
+cy: 99px;
+r: 36px;
+strok-width: 0px;
+animation-delay: 0s;
+animation-duration: 1s;
+animation-direction: normal;
+animation-fill-mode: none;
+animation-iteration-count: infinite;
+animation-play-state: running;
+animation-timing-function: cubic-bezier(0.05, 0, 1, 1);
+}
+.tiktok-dt84ji-Circle {
+fill: rgb(0, 0, 0);
+cx: 128px;
+animation-name: animation-1gjz153;
+}
+.tiktok-1ibclz-Circle, .tiktok-nuz7yg-Circle, .tiktok-1ie96h1-Circle, .tiktok-162i5jd-Circle{
+fill: rgb(15,15,15);
+cx: 60px;
+animation-name: animation-1u0u36m;
+}
+.tiktok-nuz7yg-Circle{
+fill: rgb(0, 0, 0);
+}
+.tiktok-1ie96h1-Circle{
+fill: rgb(58, 242, 255);
+}
+.tiktok-162i5jd-Circle{
+animation-name: animation-1gjz153;
+fill: rgb(254, 44, 85);
+cx:128px;
+}
+@keyframes animation-1u0u36m {
+25% {
+    cx: 100px;
+    r: 43.199999999999996px;
+  }
+50% {
+    cx: 140px;
+    r: 36px;
+  }
+75% {
+    cx: 100px;
+    r: 21.599999999999998px;
+  }
+100% {
+    cx: 60px;
+    r: 36px;
+  }
+}
+@keyframes animation-1gjz153 {
+25% {
+cx: 100px;
+r: 24px;
+}
+50% {
+cx: 60px;
+r: 36px;
+}
+75% {
+cx: 100px;
+r: 43.199999999999996px;
+}
+100% {
+cx: 140px;
+r: 36px;
+}
+}
+</style>
 </head>
-<body>
+<body class="loading">
 
 <div id="app">
 <main id="tiktok-live-main-container-id" class="tiktok-t31vku-MainLiveLayoutContainer e126j1vh0">
@@ -613,7 +714,23 @@
 
 
 <div id="desc"></div>
-
+<div class="loader">
+<svg preserveAspectRatio="none" viewBox="0 0 200 200" width="48" height="48" class="tiktok-1nfrt-SvgContainer e1ugmybf1">
+<defs>
+<mask id="redhole-1714161546495">
+<rect width="100%" height="100%" fill="white"></rect>
+<circle class="tiktok-dt84ji-Circle e1ugmybf0"></circle>
+</mask>
+<mask id="greenhole-1714161546495">
+<rect width="100%" height="100%" fill="white"></rect>
+<circle class="tiktok-nuz7yg-Circle e1ugmybf0"></circle>
+</mask>
+</defs>
+<circle stroke-width="2" stroke="#3AF2FF" class="tiktok-1ibclz-Circle e1ugmybf0"></circle>
+<circle mask="url(#redhole-1714161546495)" class="tiktok-1ie96h1-Circle e1ugmybf0"></circle>
+<circle mask="url(#greenhole-1714161546495)" class="tiktok-162i5jd-Circle e1ugmybf0"></circle>
+</svg>
+</div>
 </body>
 <script src="assets/js/jquery.min.js"></script>
 <script>
